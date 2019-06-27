@@ -67,7 +67,6 @@ class Game:
             return True
         elif res == 3:
             self.next_collision_point = self.get_next_collision_point()
-            print(self.next_collision_point)
         return False
 
     def animate_computer(self):
